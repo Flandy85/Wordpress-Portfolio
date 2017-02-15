@@ -1,0 +1,91 @@
+/***********************
+          HEADER
+************************/
+  
+  nav {
+    background: none;
+    float: right;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float:left;
+    margin-left: 5%;
+    text-align: left;
+    width:45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 0.895em;
+    margin-bottom:20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #de5305;
+    margin-bottom: 60px;
+  }
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blog-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blog-title, .blog-content {
+    text-align: center;
+    color: #7a7a7a;
+    
+  }
+  .blog-title {
+  font-family: 'Coiny', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-top: 15px;
+  }
+
+  .left-side {
+    width: 49%;
+    text-align: center;
+  }
+  .right-side {
+    width: 50%;
+    line-height: 1.5;
+  }
+  /*****************************
+        PAGE: CONTACT
+  *****************************/
+  .contact-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin: 0 auto;
+
+  }
+  .contact-info {
+    width: 48%;
+  }
+  .contact-form {
+    width: 50%;
+  
+  }
+  .wpcf7-form {
+  text-align: center;
+  }
+  
+  /*.add-banner {
+    display: none;
+  }*/
+  
